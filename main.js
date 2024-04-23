@@ -1,13 +1,13 @@
-var jogador = "x";
+var jogador = "🟣";
 
 function jogar(celula){
     if(celula.innerHTML == ""){
         celula.innerHTML = jogador;
 
-        if(jogador == "x"){
-            jogador = "o";
+        if(jogador == "🟣"){
+            jogador = "⚪";
         } else{
-            jogador = "x"
+            jogador = "🟣"
         }
     }
 
